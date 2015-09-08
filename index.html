@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Street Fighter with jQuery</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+
+<div class="main">
+  <div class="ryu">
+  	<div class="ryu-still ryu-action"></div>
+  	<div class="ryu-ready ryu-action"></div>
+  	<div class="ryu-throwing ryu-action"></div>
+  	<div class="ryu-cool ryu-action"></div>
+  </div>
+  <div class="hadouken"></div>
+  <div class="intro">
+  	<div class="sf-logo"></div>
+  	<div class="round">Round 1</div>
+  	<div class="fight">Fight!</div>
+  	<div class="instructions">
+  		<p>Click on <span style="color:red">Ryu</span> to make him throw a <span style="color:#009fe3">Hadouken.</span></p>
+  		<p>Hold down <span style="color:red">"X"</span> to make him strike a pose!</p>
+  	</div>
+  </div>
+</div>
+
+<audio id="hadouken-sound" src="sound/hadouken.mp3">
+<audio id="hammer-time" src="sound/cant-touch-this.mp3">
+<audio id="ryu-theme" src="sound/ryu-theme.mp3">
+
+</body>
+</html>
